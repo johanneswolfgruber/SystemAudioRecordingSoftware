@@ -4,9 +4,9 @@ using System.Windows.Controls;
 
 namespace SystemAudioRecordingSoftware.Presentation.MainContent
 {
-    public partial class MainView : UserControl
+    public partial class MainContentView : UserControl
     {
-        public MainView()
+        public MainContentView()
         {
             InitializeComponent();
         }

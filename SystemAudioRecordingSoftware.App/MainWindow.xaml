@@ -16,5 +16,5 @@
         TextElement.FontWeight="Medium"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
         mc:Ignorable="d">
-    <mainContent:MainView />
+    <mainContent:MainContentView x:Name="MainContent" />
 </Window>
