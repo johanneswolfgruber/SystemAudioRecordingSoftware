@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{770A645A-7B03-4BFE-A1E5-2AEADADFA30C}"
+ProjectSection(SolutionItems) = preProject
+	.editorconfig = .editorconfig
+	.gitignore = .gitignore
+	Directory.Build.Props = Directory.Build.Props
+	README.md = README.md
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemAudioRecordingSoftware.App", "SystemAudioRecordingSoftware.App\SystemAudioRecordingSoftware.App.csproj", "{0B5B6075-CF22-4564-A070-F9AAA391F4E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemAudioRecordingSoftware.Presentation", "SystemAudioRecordingSoftware.Presentation\SystemAudioRecordingSoftware.Presentation.csproj", "{4FFED6CD-4D47-46C1-9D74-7A09E696B58A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemAudioRecordingSoftware.Domain", "SystemAudioRecordingSoftware.Domain\SystemAudioRecordingSoftware.Domain.csproj", "{C1746E45-5BB9-4176-AFDF-FB316ADBF341}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemAudioRecordingSoftware.Contracts", "SystemAudioRecordingSoftware.Contracts\SystemAudioRecordingSoftware.Contracts.csproj", "{0D0BFAE6-5B21-4DBB-900C-BCBA2FDEBF5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemAudioRecordingSoftware.Common", "SystemAudioRecordingSoftware.Common\SystemAudioRecordingSoftware.Common.csproj", "{02855883-43C8-4700-BAD3-8CDA3C3AE591}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B5B6075-CF22-4564-A070-F9AAA391F4E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B5B6075-CF22-4564-A070-F9AAA391F4E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B5B6075-CF22-4564-A070-F9AAA391F4E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B5B6075-CF22-4564-A070-F9AAA391F4E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FFED6CD-4D47-46C1-9D74-7A09E696B58A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FFED6CD-4D47-46C1-9D74-7A09E696B58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FFED6CD-4D47-46C1-9D74-7A09E696B58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FFED6CD-4D47-46C1-9D74-7A09E696B58A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1746E45-5BB9-4176-AFDF-FB316ADBF341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1746E45-5BB9-4176-AFDF-FB316ADBF341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1746E45-5BB9-4176-AFDF-FB316ADBF341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1746E45-5BB9-4176-AFDF-FB316ADBF341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D0BFAE6-5B21-4DBB-900C-BCBA2FDEBF5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0BFAE6-5B21-4DBB-900C-BCBA2FDEBF5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0BFAE6-5B21-4DBB-900C-BCBA2FDEBF5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0BFAE6-5B21-4DBB-900C-BCBA2FDEBF5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02855883-43C8-4700-BAD3-8CDA3C3AE591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02855883-43C8-4700-BAD3-8CDA3C3AE591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02855883-43C8-4700-BAD3-8CDA3C3AE591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02855883-43C8-4700-BAD3-8CDA3C3AE591}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

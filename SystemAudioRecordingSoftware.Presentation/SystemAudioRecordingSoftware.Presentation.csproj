@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0-windows</TargetFramework>
+        <UseWPF>true</UseWPF>
+        <AssemblyName>SystemAudioRecordingSoftware.Presentation</AssemblyName>
+        <OutputPath>$(HostOutputPath)</OutputPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MaterialDesignThemes" Version="4.1.0" />
+    </ItemGroup>
+
+</Project>
